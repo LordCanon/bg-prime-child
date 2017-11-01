@@ -1,0 +1,179 @@
+/*
+Theme Name: Prime Child Theme
+Author: The BoldGrid Team
+Theme URI: http://www.boldgrid.com
+Author URI: http://www.boldgrid.com
+Description: Designed specifically for use with the BoldGrid suite of plugins, all BoldGrid themes are highly customizable, responsive to a wide range of devices, and of course, beautiful. Every BoldGrid theme includes five pre-selected color palettes and an advanced tool for creating your own unique palette. In addition, all themes feature multiple menu locations and widget areas, which are easily customizable to suit your needs. So if you're looking for a theme that looks great, feels modern and professional, and offers plenty of features to make it your own, you've chosen well.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: bgtfw-child
+Template: bg-prime
+Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-layout, rtl-language-support, translation-ready, boldgrid-theme-28
+*/
+/*------------------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+--------------------------------------------------------------------------*/
+# I. Base Styles
+  ## Spacing
+  ## Typography
+  ## Titles
+  ## Links
+  ## Elements
+# II. Navigation
+  ## Main Menu
+  ## Other Menus
+# III. Pages
+  ## Search
+# IV. Posts
+  ## Widgets
+# V. Footer
+
+/*------------------------------------------------------------------------
+# I. Base Styles
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## Spacing
+-----------------------------------------------*/
+.entry-content {
+        margin: 0;
+}
+.hentry {
+        margin: 0 auto 75px;
+}
+.page-template-page_home .hentry {
+        margin: 0 auto;
+} 
+
+/*-----------------------------------------------
+## Typography
+-----------------------------------------------*/
+.site-footer,
+#secondary-menu {
+        text-align: center;
+}
+
+/* Extra small devices (phones, less than 768px) */
+.navbar-default .navbar-nav,
+.navbar-default .navbar-nav .open .dropdown-menu {
+        text-align: center;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+        .navbar-default .navbar-nav,
+        .navbar-default .navbar-nav .open .dropdown-menu {
+                text-align: left;
+        }
+}
+
+/*-----------------------------------------------
+## Titles
+-----------------------------------------------*/
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+        .page-template-default .entry-title {
+                margin: -25px 0 25px;
+        }
+}
+
+/*-----------------------------------------------
+## Links
+-----------------------------------------------*/
+.pager li > a {
+        border: none;
+}
+.pager li > a:hover,
+.pager li > a:focus {
+        text-decoration: underline;
+}
+
+/*-----------------------------------------------
+## Elements
+-----------------------------------------------*/
+blockquote,
+.mod-blockquote {
+        padding-left: 15px;
+}
+
+/*------------------------------------------------------------------------
+# II. Navigation
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## Main Menu
+-----------------------------------------------*/
+.navbar {
+        border: none;
+}
+.navbar-default {
+        background: none;
+}
+.navbar-default .navbar-nav > li > a {
+        padding: 10px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+        .navbar-default {
+                float: right;
+                margin: 20px -30px 0 0;
+        }
+}
+
+/*-----------------------------------------------
+## Other Menus
+-----------------------------------------------*/
+#secondary-menu a,
+#tertiary-menu a,
+#menu-social-items a,
+#footer-center-menu a {
+        padding: 0 5px;
+}
+#secondary-menu li::after, 
+#tertiary-menu li::after, 
+#footer-center-menu li::after { 
+        content: ""; 
+}
+
+/*------------------------------------------------------------------------
+# III. Pages
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## Search
+-----------------------------------------------*/
+.search .jumbotron {
+        background: none;
+}
+
+/*------------------------------------------------------------------------
+# IV. Posts
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## Widgets
+-----------------------------------------------*/
+.widget,
+#header-widget-area,
+#footer-widget-area {
+        margin: 15px 0;
+}
+
+@media only screen and (min-width: 768px) {
+        .sidebar-1 .sidebar #searchform .button-primary {
+                width: auto;
+                height: auto;
+                padding: 0 1em;
+                font-size: 14px;
+        }
+}
+
+/*------------------------------------------------------------------------
+# V. Footer
+------------------------------------------------------------------------*/
+.site-footer {
+        padding: 20px 0;
+}
+
