@@ -81,9 +81,9 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 			'format' => 'palette-primary',
 			'neutral-color' => '#c3ae69',
 			'colors' => array(
-				'#6c473f',
-				'#6c473f',
-				'#c3ae69',
+				'#00ff00',
+				'#000000',
+				'#00ff00',
 			),
 		)
 	);
